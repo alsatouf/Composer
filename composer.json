@@ -1,0 +1,16 @@
+{
+    "require": {
+        "fzaninotto/faker": "^1.8",
+        "symfony/symfony": "^4.2"
+    },
+	"autoload": {
+        "psr-4": {
+            "MyApp\\Helpers\\ConnectDB\\":"Helpers/",
+            "MyApp\\Models\\Product\\":"Models/",
+            "MyApp\\Models\\AddressNS\\":"Models/",
+            "MyApp\\Controllers\\Parent\\":"Controllers/",
+            "MyApp\\Controllers\\AddManager\\":"Controllers/",
+            "MyApp\\Controllers\\ProdMAnager\\":"Controllers/"
+        }
+    }
+}
